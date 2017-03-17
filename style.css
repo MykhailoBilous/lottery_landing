@@ -1,0 +1,75 @@
+body {   
+background-image: url(las-vegas.jpg);      
+background-position: center;      
+background-repeat: no-repeat;      
+background-size: cover;      
+background-color: #464646; }
+
+
+
+.glass {
+    background-color: rgba(4, 11, 29, .65);
+}
+
+h3, h2 {
+    font-family: GetVoIPGrotesque !important;
+    color: white !important;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
+
+.border_col{
+    border: 10px double #fff;
+}
+
+.ghost-button-thick-border {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+  padding: 8px;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+}
+.ghost-button-thick-border:hover,
+.ghost-button-thick-border:active {  
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+}
+
+input{
+    border-radius: 5px;
+    background-color: rgba(4, 11, 29, .100);
+    border: 3px solid #fff;
+    width: 200px;
+    height: 40px;
+    color: #930;
+    
+    
+}
+
+#centerLayer {
+   vertical-align: top;
+}
+
+
+p{
+    color: #fff;
+}
+
